@@ -33,6 +33,16 @@ export default defineComponent ({
         canRun = true;
       }, 1000);
     };
+
+    let newP = new Promise((resolve,reject)=>{
+      console.log("0000000")
+      // 做一些异步操作
+      setTimeout(()=>{
+        resolve("成功了");
+      },100)
+      reject("fail")
+      newP();
+    })
     return {
       fd,
       jl,
