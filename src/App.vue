@@ -28,8 +28,12 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
   padding-left: 20%;
-  h3,h4{
+  h3,
+  h4 {
     color: red;
+  };
+  p{
+    font-weight: bold;
   }
 }
 </style>
