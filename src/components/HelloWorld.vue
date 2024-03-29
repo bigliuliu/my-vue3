@@ -1,9 +1,11 @@
 <template>
   <div class="hello">
     <button @click="fd">测试防抖</button>
+    <p>多次高频操作优化为只执行一次</p>
     <p>防抖：每次触发都会重新计算定时器，最终只执行一次</p>
     <button @click="jl">测试节流</button>
     <p>节流：间隔固定时间执行一次</p>
+    <p>每隔一段时间执行一次，降低频率</p>
   </div>
 </template>
 
