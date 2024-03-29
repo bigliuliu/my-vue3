@@ -149,6 +149,7 @@
       <p>box-sizing : content-box</p>
       <span>盒子的宽度 = width(content) +padding +border +margin </span>
       <h3>伪类</h3>
+      <span></span>
       <h3>伪元素</h3>
       <h3>--------------------------------React---------------------------------</h3>
       <h3>Redux</h3>
